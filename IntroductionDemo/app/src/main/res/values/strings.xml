@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntroductionDemo</string>
+    <string name="home_name">立即体验</string>
+    <string name="skip_name">跳过</string>
+</resources>

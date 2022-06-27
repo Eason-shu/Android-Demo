@@ -1,0 +1,3 @@
+rootProject.name = "IdCradDemo"
+include ':app'
+include ':openCVLibrary330'

@@ -1,0 +1,20 @@
+<resources>
+
+
+    <style name="divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+
+
+        <style name="popwin_anim" parent="android:Animation">
+            <item name="android:windowEnterAnimation">@anim/pop_enter_anim</item>
+            <item name="android:windowExitAnimation">@anim/pop_exit_anim</item>
+        </style>
+
+
+
+</resources>

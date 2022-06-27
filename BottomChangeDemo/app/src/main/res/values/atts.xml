@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义dropDownMenu -->
+    <declare-styleable name="DropDownMenu">
+        <!--  文本显示位置  -->
+        <attr name="textGravity">
+            <flag name="top" value="0x30" />
+            <flag name="bottom" value="0x50" />
+            <flag name="left" value="0x03" />
+            <flag name="right" value="0x05" />
+            <flag name="center_vertical" value="0x10" />
+            <flag name="fill_vertical" value="0x70" />
+            <flag name="center_horizontal" value="0x01" />
+            <flag name="fill_horizontal" value="0x07" />
+            <flag name="center" value="0x11" />
+            <flag name="fill" value="0x77" />
+            <flag name="clip_vertical" value="0x80" />
+            <flag name="clip_horizontal" value="0x08" />
+            <flag name="start" value="0x00800003" />
+            <flag name="end" value="0x00800005" />
+        </attr>
+        <!--   弹窗宽度（建议与显示框等长）     -->
+        <attr name="popupWidth" format="dimension" />
+        <!--   菜单显示栏默认字     -->
+        <attr name="placeholder" format="string" />
+        <!--   菜单显示栏字体颜色     -->
+        <attr name="textColor" format="color" />
+        <!--   菜单显示栏字体大小     -->
+        <attr name="menuTextSize" format="dimension" />
+        <!--   菜单显示栏图标     -->
+        <attr name="menuIcon" format="reference" />
+        <!--   下拉菜单展示的元素个数     -->
+        <attr name="showMenuItemCount" format="integer" />
+    </declare-styleable>
+</resources>

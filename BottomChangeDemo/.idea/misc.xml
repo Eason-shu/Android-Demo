@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Project/BottomChangeDemo/app/src/main/res/drawable/bg_view_frame.xml" value="0.1" />
+        <entry key="..\:/Android Project/BottomChangeDemo/app/src/main/res/layout/activity_main2.xml" value="0.12335359675785208" />
+        <entry key="..\:/Android Project/BottomChangeDemo/app/src/main/res/layout/edit_spinner.xml" value="0.12335359675785208" />
+      </map>
+    </option>
+  </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
     <option name="myDefaultNotNull" value="androidx.annotation.NonNull" />

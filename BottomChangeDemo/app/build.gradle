@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.shu"
-        minSdkVersion 29
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -32,6 +32,7 @@ android {
 }
 
 dependencies {
+    compile 'com.wrbug:editspinner:1.0.0'
     implementation 'com.github.840631861:ZwFilterRecycleview:v0.1.6'
     implementation 'io.github.razerdp:BasePopup:3.2.0'
     implementation 'androidx.appcompat:appcompat:1.2.0'

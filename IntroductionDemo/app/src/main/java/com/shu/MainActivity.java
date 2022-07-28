@@ -1,13 +1,16 @@
 package com.shu;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.DialogFragment;
 import androidx.viewpager.widget.ViewPager;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -181,8 +184,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      */
     public void GoToLogin(){
         Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+//        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
-        overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out);
+//        overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out);
     }
+
+
+//    @Override
+//    public void finish() {
+//        Log.e("info","监听事件");
+////        DialogFragment mLocationDialog = new AlertDialogFragment().setTitle("启动位置服务")
+////                .setMessage("为了您能更好地使用本功能，请开启定位服务，否则无法使用此功能。")
+////                .setButtons("返回", "设置")
+////                .setOnButtonClickListener(new DialogInterface.OnClickListener() {
+////                    @Override
+////                    public void onClick(DialogInterface dialogInterface, int i) {
+////                        switch (i) {
+////                            case 0: //"取消"按钮直接退出
+////                                getActivity().finish();
+////                                return;
+////                            case 1: //"设置"按钮设置GPS
+////                                LocationServiceUtils.gotoLocServiceSettings(getAppContext());
+////                                return;
+////                            default:
+////                                return;
+////                        }
+////                    }
+////                });
+//    }
 }

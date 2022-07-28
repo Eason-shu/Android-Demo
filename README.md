@@ -8,3 +8,4 @@
 - ScannerDemo：集成大神开发的扫描识别效果，并改造
 - UpdateAppDemo：主要是安卓开发场景下的App更新提示开发案例
 - IntroductionDemo：引导页开发
+- SearchSpinner: 搜索下拉框开发 

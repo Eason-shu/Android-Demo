@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.shu.spinner.SearchSpinner
+        android:id="@+id/editSpinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:hint="EditSpinner Test"
+        app:rightImage="@drawable/ic_expand_more_black"
+        tools:ignore="MissingConstraints" />
+
+
+    <com.shu.spinner.SearchSpinner
+        android:id="@+id/editSpinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editSpinner1"
+        android:layout_margin="10dp"
+        app:hint="EditSpinner Test"
+        app:rightImage="@drawable/ic_expand_more_black"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editSpinner2"
+        android:onClick="clickButton"
+        android:text="获取数据"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:onClick="clickButton2"
+        android:layout_centerHorizontal="true"
+        android:text="绑定数据" />
+
+
+</RelativeLayout>
